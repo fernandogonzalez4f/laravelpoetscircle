@@ -1,0 +1,54 @@
+.header{
+    text-align: center;
+    background-color: rgb(183, 120, 241);
+}
+.background{
+    background-color: rgb(136, 201, 245);
+    margin-left: 200px;
+}
+.title2{
+    font-size: 200%;
+    background-color: rgb(183, 120, 241);
+    text-align: center;
+    margin: 4px;
+}
+.content{
+    font-size: 150%;
+}
+.background2{
+    background-color: rgb(62, 180, 62);
+}
+.color{
+    background-color: lightgreen;
+}
+.background3{
+    background-color: cyan;
+}
+.sidenav{
+  background-color: rgb(248, 223, 78);
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+}
+.sidenav a:hover {
+    color: #000000;
+  }
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
